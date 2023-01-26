@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\img\blog-details\1.jpg" />
+      <None Include="wwwroot\img\clear.png" />
+      <None Include="wwwroot\img\contact\1.jpg" />
+      <None Include="wwwroot\img\contact\2.jpg" />
+      <None Include="wwwroot\img\contact\3.jpg" />
+      <None Include="wwwroot\img\contact\4.jpg" />
+      <None Include="wwwroot\img\courses\1.jpg" />
+      <None Include="wwwroot\img\courses\2.jpg" />
+      <None Include="wwwroot\img\courses\3.jpg" />
+      <None Include="wwwroot\img\cropper\1.jpg" />
+      <None Include="wwwroot\img\favicon.ico" />
+      <None Include="wwwroot\img\green1.png" />
+      <None Include="wwwroot\img\loading.gif" />
+      <None Include="wwwroot\img\logo\logo.png" />
+      <None Include="wwwroot\img\logo\logosn.png" />
+      <None Include="wwwroot\img\notification\1.jpg" />
+      <None Include="wwwroot\img\notification\2.jpg" />
+      <None Include="wwwroot\img\notification\3.jpg" />
+      <None Include="wwwroot\img\notification\4.jpg" />
+      <None Include="wwwroot\img\notification\5.jpg" />
+      <None Include="wwwroot\img\notification\6.jpg" />
+      <None Include="wwwroot\img\product\book-1.jpg" />
+      <None Include="wwwroot\img\product\book-2.jpg" />
+      <None Include="wwwroot\img\product\book-3.jpg" />
+      <None Include="wwwroot\img\product\book-4.jpg" />
+      <None Include="wwwroot\img\product\pro4.jpg" />
+      <None Include="wwwroot\img\product\profile-bg.jpg" />
+      <None Include="wwwroot\img\profile\1.jpg" />
+      <None Include="wwwroot\img\student\1.jpg" />
+      <None Include="wwwroot\img\student\2.jpg" />
+      <None Include="wwwroot\img\student\3.jpg" />
+      <None Include="wwwroot\img\student\4.jpg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.2">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+</Project>
